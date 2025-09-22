@@ -16,7 +16,8 @@ __all__ = [ 'assign','smart_assign','LCA','linkable','Unpack',
             'when','Bundle',
             
             
-            'Config','UHDLException','MultiFileExec','MultiFileScope']
+            'Config','UHDLException','MultiFileExec','MultiFileScope',
+            'TempComponent']
 
 from .Component     import Component
 from .VComponent    import VComponent
@@ -48,5 +49,6 @@ linkable     = Linkable
 
 
 from .UHDLException import *
+from .TempComponent import TempComponent
 
 
